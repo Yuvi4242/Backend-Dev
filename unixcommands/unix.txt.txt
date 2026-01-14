@@ -1,0 +1,41 @@
+ls → Lists all files and folders in the current directory.
+Ex: ls
+
+ls -a → Lists all files and folders including hidden files (files starting with .).
+Ex: ls -a
+
+pwd → Displays the full path of the current working directory.
+Ex: pwd
+
+cd foldername → Changes the current directory to the specified folder.
+Ex: cd projects
+
+cd .. → Moves one directory level up from the current directory.
+Ex: cd ..
+
+mkdir dirname → Creates a new directory with the given name.
+Ex: mkdir java
+
+rmdir dirname → Deletes an empty directory.
+Ex: rmdir temp
+
+touch filename → Creates a new empty file.
+Ex: touch main.java
+
+cat filename → Displays the content of the specified file.
+Ex: cat main.java
+
+cp file1 file2 → Copies file1 and creates file2 with the same content.
+Ex: cp a.txt b.txt
+
+mv oldname newname → Renames a file or moves it to another location.
+Ex: mv old.txt new.txt
+
+rm filename → Deletes the specified file permanently.
+Ex: rm test.txt
+
+rm -r foldername → Deletes a directory along with all its files and subdirectories.
+Ex: rm -r projects
+
+clear → Clears the terminal screen for a clean workspace.
+Ex: clear
