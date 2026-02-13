@@ -1,0 +1,26 @@
+<h2>Students List</h2>
+
+<% if(students.length === 0){ %>
+    <p>No students registered</p>
+<% } else { %>
+
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Branch</th>
+    <th>Action</th>
+  </tr>
+
+  <% students.forEach(s => { %>
+    <tr>
+      <td><%= s.name %></td>
+      <td><%= s.branch %></td>
+      <td>
+        <a href="/students/delete/<%= s.id %>">Delete</a>
+      </td>
+    </tr>
+  <% }) %>
+
+</table>
+
+<% } %>
